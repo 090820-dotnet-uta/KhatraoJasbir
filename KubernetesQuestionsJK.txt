@@ -1,0 +1,59 @@
+Jasbir Khatrao
+Kubernetes Questions
+10/22/2020
+
+1.) A Kubernetes cluster consists of two types of resources. What are they?
+
+A.) Container and MiniKube
+*B.) Master and Node
+C.) MiniKube and Master
+D.) Container and Node
+
+2.) If the Node hosting an instance goes down or is deleted, what happens?
+
+A.) The application stops running for all users.
+B.) You must manually replace the instance with an instance on another Node in the cluster.
+*C.) The Deployment Controller replaces the instance with an instance on another Node in the cluster.
+D.) The instance remains live for 5 minutes, before it is replaced by the Deployment Controller.
+
+3.) What is a Pod?
+
+A.) A Kubernetes abstraction that represents a packet of information that travels from node-to-node.
+*B.) A Kubernetes abstraction that represents a group of one or more application containers (Docker),
+     and some shared resources for those containers.
+C.) A Kubernetes abstraction that represents an application instance.
+D.) A Kubernetes abstraction that represents a node instance.
+
+4.) What does a ReplicaSet do?
+
+A.) Dynamically create/maintain new nodes, to keep your application running.
+B.) Dynamically create/maintain new sets, to keep your application running.
+C.) Dynamically create/maintain new containers, to keep your application running.
+*D.) Dynamically create/maintain new pods, to keep your application running.
+
+5.) What does scaling in Kubernetes do?
+
+*A.) Increase the number of Pods to the new desired state.
+B.) Increase the number of Nodes to the new desired state.
+C.) Increase the number of Clusters to the new desired state.
+D.) Decrease the number of Clusters to the new desired state.
+
+6.) Rolling updates allow the following: (Check all that apply)
+* Promote an application from one environment to another
+* Rollback to previous versions
+Expose your deployment for operation
+* Continous Integration and Continuous Delivery of applicatiions with zero downtime
+Expose your app publicly
+
+7.) What is Kubernetes? (Choose the best answer)
+A.) A production-grade, open-source version control software.
+*B.) A production-grade, open-source infrastructure for the deployment, scaling, management, and composition
+     of application containers
+C.) An open-source software that allows users to host containerized applications.
+D.) A software that uses containerized applications to manage and host clusters.
+
+8.) How does the Kubectl interact with the cluster?
+A.) It uses the node processes
+B.) It sends pods to each node.
+*C.) It uses the Kubernetes API.
+D.) It uses the Minikube API.
